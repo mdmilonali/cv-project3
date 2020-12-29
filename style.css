@@ -1,0 +1,58 @@
+.header{
+text-align: center;
+
+}
+.nav{
+    width: 300px; float: left;padding: 10px;margin: 10px;justify-content: center;
+}
+
+.image-info{
+    width: 100px;border-radius: 50%;height: 100px;text-align: center;margin-left: 78px;
+}
+.container{
+    max-width: 1000px;margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6{
+
+color: teal;font-size: 20px;
+
+}
+
+.panda{
+color: rgb(5, 83, 65);font-weight: bold;font-size: 15px;padding: 10px;
+
+}
+.images-info {
+    background-color: gainsboro;
+    text-align: center;
+}
+.div-clear{
+
+    clear: both;padding: 10px;
+}
+
+/* @madia screen 992px start */
+@media screen and (max-width:992px){
+    .nav{
+        width:430px;
+    }
+    body{
+        background-color: rgb(228, 247, 247);
+    }
+    .image-info{
+        margin-left: 290px;
+    }
+}
+
+
+
+
+/* @madia screen 800px start */
+@media screen and (max-width:800px){
+    .nav{
+        width: 770px;
+    }
+    body{
+        background-color: rgb(191, 230, 231);
+    }
+}
